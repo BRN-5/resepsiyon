@@ -1,9 +1,9 @@
 body {
     margin: 0;
     line-height: normal;
-  }
+}
   
-  :root {
+:root {
     /* fonts */
     --font-inknut-antiqua: "Inknut Antiqua";
     --font-inter: Inter;
@@ -30,5 +30,5 @@ body {
     /* Paddings */
     --padding-82xl-5: 101.5px;
     --padding-lg-5: 18.5px;
-  }
+}
   
