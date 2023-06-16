@@ -1,0 +1,18 @@
+.rates-container {
+    position: absolute;
+    top: 905px;
+    left: 0;
+    background-color: #495c8e;
+    width: 1100px;
+    height: 175px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.currency {
+    width: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}

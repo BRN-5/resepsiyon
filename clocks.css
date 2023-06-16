@@ -1,0 +1,99 @@
+.clocks-container {
+    position: absolute;
+    top: 905px;
+    left: 0;
+    background-color: #495c8e;
+    width: 1220px;
+    height: 175px;
+    overflow: hidden;
+}
+
+.clocks-container {
+    top: 730px;
+    background-color: #1f2d78;
+}
+
+.clocks-container {
+    top: 375px;
+    background-color: #375684;
+    width: 1920px;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+}
+
+.clock--wrapper {
+    margin: auto;
+    place-items: center;
+    padding: 0 10px;
+    gap: 2rem;
+    color: var(--white);
+    margin: 0 50px;
+}
+
+.clock--wrapper h2 {
+    font-weight: 800;
+}
+
+.clockface {
+    filter: drop-shadow(2px 2px 2px var(--dark));
+}
+
+.ring--seconds {
+    fill: var(--dark);
+    stroke: var(--pink);
+    stroke-width: 5;
+    stroke-dasharray: .1 .9;
+    stroke-dashoffset: .05;
+}
+
+.ring--hours {
+    fill: transparent;
+    stroke: var(--purple);
+    stroke-width: 10;
+    stroke-dasharray: .05 .95;
+    stroke-dashoffset: .025;
+}
+
+.ring--center {
+    fill: var(--pink);
+    stroke: var(--white);
+    stroke-width: 2.5;
+}
+
+.hand {
+    stroke: var(--pink);
+    stroke-linecap: round;
+}
+
+.hand--hour {
+    transform: rotate(45deg);
+    stroke-width: 5;
+    stroke: var(--white);
+}
+
+.hand--minute {
+    transform: rotate(90deg);
+    stroke-width: 5;
+    stroke: var(--purple);
+}
+
+.clock span {
+    position: absolute;
+    margin-top: 50px;
+    z-index: 99999;
+    inset: 65px;
+    color: #999;
+    transform: rotate(calc(30deg * var(--i)));
+}
+
+.clock span b {
+    font-size: 0.75em;
+    font-weight: 500;
+    display: inline-block;
+    transform: rotate(calc(-30deg * var(--i)));
+}
+
+.sayi {
+    fill: #fff;
+}

@@ -1,0 +1,22 @@
+.prices-container {
+    position: absolute;
+    top: 905px;
+    left: 0;
+    background-color: #495c8e;
+    width: 1100px;
+    height: 175px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prices-container {
+    top: 730px;
+    background-color: #1f2d78;
+}
+
+.prices-container h1 {
+    font-size: 16px;
+}

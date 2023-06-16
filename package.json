@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "date-fns-tz": "^2.0.0",
+    "gh-pages": "^5.0.0",
+    "jquery": "^3.7.0",
+    "parcel": "^2.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "name": "test22",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel ./*.html",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url 'github.com/BRN-5/resepsiyon.git'",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}

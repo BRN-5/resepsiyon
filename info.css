@@ -1,0 +1,76 @@
+
+.address,
+.phone {
+  position: absolute;
+  top: 53px;
+  left: 886px;
+}
+.address {
+  top: 90px;
+  left: 785px;
+  font-size: 14px;
+}
+.date,
+.day {
+  line-height: 159.4%;
+}
+.date {
+  position: absolute;
+  top: 35px;
+  left: 1640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+.day {
+  top: 65px;
+  left: 1760px;
+}
+.day,
+.hour,
+.name {
+  position: absolute;
+}
+.hour {
+  top: 90px;
+  left: 1755px;
+  line-height: 159.4%;
+}
+.name {
+  top: 0;
+  left: calc(50% - 91px);
+  font-size: var(--font-size-5xl);
+}
+.body,
+.info-container {
+  background-color: var(--color-gray);
+  overflow: hidden;
+}
+.info-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 125px;
+}
+.body {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inknut-antiqua);
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  object-fit: scale-down;
+  width: 200px;
+  height: 125px;
+  -webkit-filter: drop-shadow(5px 0 10px #fff);
+  filter: drop-shadow(5px 0 10px #fff);
+}

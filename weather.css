@@ -1,0 +1,18 @@
+.weather-container {
+    position: absolute;
+    top: 730px;
+    left: 1100px;
+    background-color: #265874;
+    width: 820px;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .weather {
+    display: inline-block;
+    place-items: center;
+  }
+
+  .weather2 {
+    margin-top: -10px;
+  }
